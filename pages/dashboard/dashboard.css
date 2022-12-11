@@ -26,6 +26,28 @@ body {
     color: black;
 }
 
+#myChart {
+    /* border: 1px solid black; */
+    margin-top: 0;
+}
+
+.chart h4 {
+    /* border: 1px solid red; */
+    margin-bottom: 0;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 35vh;
+
+}
+
 .order-logo img {
     width: 60px;
     height: 60px;

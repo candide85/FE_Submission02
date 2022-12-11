@@ -19,7 +19,7 @@
                 <ul>
                     <li><a href="./dashboard.html">Dashboard</a></li>
                     <li><a href="../orders/orders.html">Orders</a></li>
-                    <li><a>Logout</a></li>
+                    <li><a onclick="logout()">Logout</a></li>
                 </ul>
             </div>
         </div>
@@ -39,11 +39,10 @@
                     <p>$95k / 876 orders</p>
                 </div>
             </div>
-            <div>
-                <h3>Revenue (Last 7 days)</h3>
-                <div>
-                    Add Chart Here
-                </div>
+
+            <div class="chart">
+                <h4>Revenue (Last 7 days)</h4>
+                <canvas id="myChart" width="200" height="80"></canvas>
             </div>
             <div>
                 <h3>Bestsellers</h3>
@@ -73,6 +72,8 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script type="text/javascript" src="dashboard.js"></script>
 </body>
 
 </html>
